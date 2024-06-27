@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro até Meia-Noite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title" id="animatedTitle">BRUNO BDAY</div>
+        <div id="timer">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <button id="confirm-button">Confirmar Presença</button>
+        <div id="party-info" style="display: none;">
+            <h1>Bem-vindo à Festa!</h1>
+            <p>Local: R. Felizarda Firmino de Andrade, 52 - Vila das Palmeiras, Guarulhos - SP, 07112-010</p>
+            <p>Data: 28/06/2024</p>
+            <p>Hora: 18:30</p>
+        </div>
+        <div id="3d-container"></div> <!-- Container for 3D object -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
